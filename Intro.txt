@@ -1,1 +1,0 @@
-hello guys this repositry was made out of my curiosity to use Bunjs, Nextjs and Elysiajs hope you like my projects
