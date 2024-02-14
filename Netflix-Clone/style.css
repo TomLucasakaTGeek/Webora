@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     padding: 0;
@@ -20,7 +21,7 @@ body{
 .main .box{
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     position: absolute;
     top: 0;
     background: black;
@@ -46,7 +47,7 @@ nav button{
 }
 .hero{
     font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    height: calc(100%-62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,17 +55,93 @@ nav button{
     color: white;
     position: relative;
     gap: 23px;
-    padding: 23px;
+    padding: 30px;
 }
 .hero> :first-child{
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bolder;
+    text-align: center;
 }
 .hero> :nth-child(2){
-    font-weight: 400;
-    font-size: 24px;
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
 }
 .hero> :nth-child(3){
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
+.seperation{
+    height: 10px;
+    background-color: rgb(46,44,44);
+}
+.btn{
+    padding: 3px 8px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248,243,243,0.021);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    padding: 3px 24px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.hero buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(246,238,238,0.5);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.secImg{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    height: 200px;
+    top: 55px;
+    right: 19px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 45px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+}
+
