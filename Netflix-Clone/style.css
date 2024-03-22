@@ -153,10 +153,10 @@ section.first > div :nth-child(2){
     text-align: center;
     font-size: 48px;
 }
-.faqbox: hover{
+/* .faqbox: hover{
     background-color: white;
     transition: all;
-}
+} */
 .faqbox{
     display: flex;
     justify-content: space-between;

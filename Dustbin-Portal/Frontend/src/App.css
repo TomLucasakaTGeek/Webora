@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    padding: 7px 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    color: aqua;
+}
+.body{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}   
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 1%;
+    font-family:'Courier New', Courier, monospace;
+    color: green;
+}
+.usname{
+    height: 6vh;
+    width: 25vw;
+    border: 1px solid black;
+}
+.psword{
+    height: 6vh;
+    width: 25vw;
+    border: 1px solid black;
+}
+.btn{
+    height: 6vh;
+    width: 25vw;
+    background-color: green;
+}
+.Map{
+    height: 50vh;
+    width: 100%;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    
+}
+.footer{
+    background-color: black;
+    color: aqua;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
