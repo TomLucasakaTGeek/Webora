@@ -1,9 +1,10 @@
 const express = require('express')
 const cors = require('cors')
+require('dotenv').config()
 const { connectDB } = require('./Model/db')
 const { tweets } = require('./Model/schema')
 const app = express()
-const port = 8000
+const port = process.env.PORT 
 
 app.get('/', (req, res)=>{
     res.send("Hello there !")
