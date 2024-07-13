@@ -1,0 +1,36 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 80vh;
+}
+
+.button {
+    padding: 10px;
+    background-color: blue;
+    /* border: 2px solid black; */
+    color: black;
+    width: 40vw;
+}
+
+.input {
+    height: 30vh; 
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+li {
+    height: 30vh; 
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.listbox {
+    border-bottom: 2px solid black;
+    padding: 25px;
+}
